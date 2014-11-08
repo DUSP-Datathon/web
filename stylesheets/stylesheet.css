@@ -1,3 +1,82 @@
+/* A bit of custom CSS. I did not create a new stylesheet as it would have to be included in multiple index.html files, and I am not so keen on writing non-DRY code */
+.contest-summary {
+  border: 1px solid black;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+#open-data-challenge-request {
+  border: 1px dotted black;
+  text-align: center;
+}
+
+.challenge-description {
+  float: left;
+}
+
+.fear-of-data {
+  float: right;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+ul.menu {
+  margin-left: 300px;
+}
+
+.for-prize {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+/* Lots of code to make a pretty button */
+.submit-button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+  background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+  background-color:#d0451b;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+}
+.submit-button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+  background-color:#bc3315;
+}
+.submit-button:active {
+  position:relative;
+  top:1px;
+}
+.submit-button a {
+  color:#fff;
+}
+.submit-button:hover a {
+  color: #000;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
