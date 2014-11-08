@@ -500,6 +500,10 @@ header h4 {
   padding-top: 10px;
 }
 
+#content-wrapper ul li {
+  text-align: center;
+}
+
 #main-content {
   width: 690px;
   float: left;
