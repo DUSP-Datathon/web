@@ -10,8 +10,24 @@
   text-align: center;
 }
 
+.challenge-description {
+  float: left;
+}
+
+.fear-of-data {
+  float: right;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
 ul.menu {
-  margin-left: 268px;
+  margin-left: 300px;
+}
+
+.for-prize {
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: -15px;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
