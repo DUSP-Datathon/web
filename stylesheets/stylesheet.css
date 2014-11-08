@@ -2,6 +2,12 @@
 .contest-summary {
   border: 1px solid black;
   padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+#open-data-challenge-request {
+  border: 1px dotted black;
+  text-align: center;
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
