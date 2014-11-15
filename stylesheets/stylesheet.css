@@ -4,6 +4,14 @@
   list-style-type: none
 }
 
+#odd-teams {
+  list-style-type: none
+}
+
+.odd-people {
+  list-style-type: none
+}
+
 .contest-summary {
   border: 1px solid black;
   padding-left: 10px;
